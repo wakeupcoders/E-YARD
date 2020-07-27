@@ -34,6 +34,8 @@
 
 
   <script src="./js/contact.js"></script>
+  
+  <script src="./js/newsletter.js"></script>
 </head>
 
 <body>
@@ -51,13 +53,14 @@
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-          <li class="nav-item"><a href="project-park.html" class="nav-link">Project Park</a></li>
-          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-          <li class="nav-item active"><a href="contact.html" class="nav-link">Contact</a></li>
-          <li class="nav-item cta mr-md-1"><a href="career-chart.html" class="nav-link">Career Chart</a></li>
-          <li class="nav-item cta cta-colored"><a href="career-site.html" class="nav-link">Career Site</a></li>
+                    <li class="nav-item"><a href="project-park.html" class="nav-link">Project Park</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="library.html" class="nav-link">Library</a></li>
+                    <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+					<li class="nav-item cta mr-md-1"><a href="career-chart.html" class="nav-link">Career Chart</a></li>
+					<li class="nav-item cta cta-colored"><a href="career-site.html" class="nav-link">Career Site</a>
 
         </ul>
       </div>
@@ -137,16 +140,15 @@
         <div class="row d-flex justify-content-center">
           <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
             <h2>Subcribe to our Newsletter</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts. Separated they live in</p>
+            <p>Subscribe us to get our latest news and updates. Don't worry we don't sell your information.</p>
             <div class="row d-flex justify-content-center mt-4 mb-4">
               <div class="col-md-12">
-                <form action="#" class="subscribe-form">
+                <div  class="subscribe-form">
                   <div class="form-group d-flex">
-                    <input type="text" class="form-control" placeholder="Enter email address">
-                    <input type="submit" value="Subscribe" class="submit px-3">
+                    <input type="text" class="form-control" id="newsletteremail" placeholder="Enter email address">
+                    <button  class="submit px-3" onclick="subscribe()">Subscribe</button>
                   </div>
-                </form>
+      </div>
               </div>
             </div>
           </div>
